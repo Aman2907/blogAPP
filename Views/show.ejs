@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= article.title %>
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div >
+            <h1 class="card title text-center">
+                <%= article.title %>
+            </h1>
+            <p class="card-text mb-2"><b> <%= article.description %></b> </p>
+            <article>
+                <%= article.markdown %>
+            </article>
+            <p>Created Time: <%= article.created_at %>
+            </p> 
+            <p>Created by: <%= article.user %>
+            </p> 
+        </div>
+        <a href="/articles/edit/<%= article.id%>" class="btn btn-danger">Edit</a>
+        <a href="/users/dashboard" class="btn btn-primary">All</a>
+        <!-- <div>
+            <%= article.markdown %>
+        </div> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.container {
+
+  background-color: aquamarine;
+}
+
+
+
+
+
+
+
+.container-lg {
+  border: 2px solid #ccc;
+  /* Border style */
+  padding: 20px;
+  /* Padding inside the div */
+  border-radius: 8px;
+  /* Rounded corners */
+}
+
+
+

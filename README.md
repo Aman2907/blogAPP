@@ -40,16 +40,16 @@ Strucuture  of Assignment <br/>
 - Git <br/>
 
 **Approach**:
-1. **Database Schema Design**:
- #Added a `Users` table with columns for `id`, `Name`, `email`, `password`.
+1. **Database Schema Design**: <br/>
+ #Added a `Users` table with columns for `id`, `Name`, `email`, `password`. <br/>
 
-# Added a `articles` table with columns for `post title`, `Description`, `markdown`.
+# Added a `articles` table with columns for `post title`, `Description`, `markdown`. <br/>
 
-#/articles/aman - Its used to create post with title, description and marddown 
+#/articles/aman - Its used to create post with title, description and marddown  <br/>
 
 
 2. **Authentication Logic**:
-   - Used JWT for token-based authentication.
+   - Used JWT for token-based authentication. 
    - Implemented middleware to protect routes
    - passportConfig
 3. **Endpoints**:

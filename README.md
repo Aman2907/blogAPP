@@ -43,9 +43,9 @@ Strucuture  of Assignment <br/>
 1. **Database Schema Design**: <br/>
  #Added a `Users` table with columns for `id`, `Name`, `email`, `password`. <br/>
 
-# Added a `articles` table with columns for `post title`, `Description`, `markdown`. <br/>
+#Added a `articles` table with columns for `post title`, `Description`, `markdown`. <br/>
 
-#/articles/aman - Its used to create post with title, description and marddown  <br/>
+#/articles/aman - It's used to create posts with title, descriptions, and markdown  <br/>
 
 
 2. **Authentication Logic**:
